@@ -119,20 +119,6 @@ void parse_input(char *input) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 void execute_command(char *command, char *args[], int background) {
     pid_t pid = fork();
     if (pid < 0) {
